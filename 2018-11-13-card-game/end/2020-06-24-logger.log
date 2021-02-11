@@ -1,0 +1,81 @@
+[2020.06.24 22:26:03] | INFO  | [MyLogFile] [] >> test info
+
+[2020.06.24 22:26:03] | WARN  | [MyLogFile] [] >> test warning
+
+[2020.06.24 22:26:03] | ERROR | [MyLogFile] [] >> test error
+
+[2020.06.24 22:28:26]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:28:26]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:28:26]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:28:49]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:28:49]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:28:49]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:28:57]|INFO |[MyLogFile] []>>test trace
+
+[2020.06.24 22:29:39]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:29:39]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:29:39]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:30:01]|INFO |[MyLogFile] []>>test trace
+
+[2020.06.24 22:30:24]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:30:24]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:30:24]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:30:43]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:47]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:48]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:48]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:48]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:48]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:49]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:49]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:49]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:49]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:49]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:30:49]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:31:08]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:31:08]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:31:08]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:32:27]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:32:27]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:32:27]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:32:35]|INFO |[MyLogFile] []>>HOST Button pressed
+
+[2020.06.24 22:34:53]|INFO |[MyLogFile] []>>test info
+
+[2020.06.24 22:34:53]|WARN |[MyLogFile] []>>test warning
+
+[2020.06.24 22:34:53]|ERROR|[MyLogFile] []>>test error
+
+[2020.06.24 22:35:58]|INFO |[MyLogFile] []>>test info
+[2020.06.24 22:35:58]|WARN |[MyLogFile] []>>test warning
+[2020.06.24 22:35:58]|ERROR|[MyLogFile] []>>test error

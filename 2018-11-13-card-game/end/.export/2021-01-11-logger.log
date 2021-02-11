@@ -1,0 +1,13 @@
+[2021.01.11 17:41:12]|INFO |[MyLogFile] []>>test info
+[2021.01.11 17:41:12]|WARN |[MyLogFile] []>>test warning
+[2021.01.11 17:41:12]|ERROR|[MyLogFile] []>>test error
+[2021.01.11 17:41:26]|WARN |[MyLogFile] []>>SERVER CREATED
+[2021.01.11 17:41:36]|INFO |[MyLogFile] []>>test info
+[2021.01.11 17:41:36]|WARN |[MyLogFile] []>>test warning
+[2021.01.11 17:41:36]|ERROR|[MyLogFile] []>>test error
+[2021.01.11 17:43:50]|INFO |[MyLogFile] []>>test info
+[2021.01.11 17:43:50]|WARN |[MyLogFile] []>>test warning
+[2021.01.11 17:43:50]|ERROR|[MyLogFile] []>>test error
+[2021.01.11 17:43:50]|INFO |[MyLogFile] []>>test info
+[2021.01.11 17:43:50]|WARN |[MyLogFile] []>>test warning
+[2021.01.11 17:43:50]|ERROR|[MyLogFile] []>>test error

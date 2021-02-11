@@ -17,12 +17,13 @@ func _on_connected_to_server():
 func _on_server_disconnected():
 	pass
 
-func create_server(port):
+func create_server(port,nickname):
 	var peer = NetworkedMultiplayerENet.new()
 	peer.create_server(int(port), 2)
 	get_tree().set_network_peer(peer)
+	print("Server created")
 
-func connect_to_server(ip, port):
+func connect_to_server(ip, port, nickname):
 	var peer = NetworkedMultiplayerENet.new()
 	get_tree().connect('connected_to_server', self, '_on_connected_to_server')
 	peer.create_client(ip, int(port))

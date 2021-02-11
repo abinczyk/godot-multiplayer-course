@@ -39,11 +39,11 @@ func _on_connected_to_server():
 	rpc('_send_player_information', player_info)
 
 func connect_to_server(ip, port, nickname):
-	.connect_to_server(ip, port)
+	.connect_to_server(ip, port,nickname)
 	player_info.name = nickname
 	player_info.id = get_tree().get_network_unique_id()
 
 func create_server(port, nickname):
-	.create_server(port)
+	.create_server(port,nickname)
 	player_info.name = nickname
 	player_info.id = get_tree().get_network_unique_id()

@@ -1,0 +1,10 @@
+[2020.09.24 20:48:46]|INFO |[MyLogFile] []>>test info
+[2020.09.24 20:48:46]|WARN |[MyLogFile] []>>test warning
+[2020.09.24 20:48:46]|ERROR|[MyLogFile] []>>test error
+[2020.09.24 20:48:50]|INFO |[MyLogFile] []>>test info
+[2020.09.24 20:48:50]|WARN |[MyLogFile] []>>test warning
+[2020.09.24 20:48:50]|ERROR|[MyLogFile] []>>test error
+[2020.09.24 20:49:01]|WARN |[MyLogFile] []>>SERVER CREATED
+[2020.09.24 20:50:22]|INFO |[MyLogFile] []>>test info
+[2020.09.24 20:50:22]|WARN |[MyLogFile] []>>test warning
+[2020.09.24 20:50:22]|ERROR|[MyLogFile] []>>test error

@@ -1,0 +1,39 @@
+[2020.06.26 21:14:10]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:14:10]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:14:10]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:23:50]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:23:50]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:23:50]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:24:58]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:24:58]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:24:58]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:25:04]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:25:04]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:25:04]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:25:21]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:25:21]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:25:21]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:25:28]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:25:28]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:25:28]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:26:07]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:26:07]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:26:07]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:27:47]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:27:47]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:27:47]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:30:24]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:30:24]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:30:24]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:39:06]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:39:06]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:39:06]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:41:43]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:41:43]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:41:43]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:42:19]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:42:19]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:42:19]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:42:33]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:42:33]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:42:33]|ERROR|[MyLogFile] []>>test error

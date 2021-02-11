@@ -4,417 +4,156 @@
 [ext_resource path="res://interface/fonts/montserrat_extra_bold_64.tres" type="DynamicFont" id=2]
 [ext_resource path="res://interface/fonts/montserrat_extra_bold_32.tres" type="DynamicFont" id=3]
 
-[node name="StartMenu" type="Control" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="StartMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="CenterContainer" type="MarginContainer" parent="." index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
+[node name="CenterContainer" type="MarginContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 0
-mouse_default_cursor_shape = 0
+margin_left = -9.32292
+margin_top = -158.286
+margin_right = -9.32288
+margin_bottom = -122.286
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_constants/margin_right = 75
 custom_constants/margin_top = 75
 custom_constants/margin_left = 75
 custom_constants/margin_bottom = 75
-_sections_unfolded = [ "Margin", "Size Flags", "custom_constants" ]
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
 margin_left = 75.0
 margin_top = 75.0
 margin_right = 1205.0
-margin_bottom = 491.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
+margin_bottom = 521.0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 custom_constants/separation = 25
-alignment = 0
-_sections_unfolded = [ "Rect", "Size Flags", "custom_constants" ]
 
-[node name="Title" type="Label" parent="CenterContainer/VBoxContainer" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="Title" type="Label" parent="CenterContainer/VBoxContainer"]
 margin_right = 1130.0
 margin_bottom = 79.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
 size_flags_vertical = 0
 custom_fonts/font = ExtResource( 2 )
 text = "CARD GAME"
 align = 1
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "Size Flags", "custom_fonts" ]
 
-[node name="NameContaier" type="HBoxContainer" parent="CenterContainer/VBoxContainer" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="NameContaier" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
 margin_top = 104.0
 margin_right = 1130.0
-margin_bottom = 144.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-alignment = 0
+margin_bottom = 154.0
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/NameContaier" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/NameContaier"]
 margin_right = 563.0
 margin_bottom = 40.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 custom_fonts/font = ExtResource( 3 )
 text = "Name: "
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "Size Flags", "custom_fonts" ]
 
-[node name="NameEdit" type="LineEdit" parent="CenterContainer/VBoxContainer/NameContaier" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="NameEdit" type="LineEdit" parent="CenterContainer/VBoxContainer/NameContaier"]
 margin_left = 567.0
 margin_right = 1130.0
-margin_bottom = 40.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 1
+margin_bottom = 50.0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
 max_length = 12
-focus_mode = 2
-context_menu_enabled = true
-placeholder_alpha = 0.6
-caret_blink = false
-caret_blink_speed = 0.65
-caret_position = 0
 
-[node name="IpContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer" index="2"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_top = 169.0
+[node name="IpContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
+margin_top = 179.0
 margin_right = 1130.0
-margin_bottom = 209.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-alignment = 0
+margin_bottom = 229.0
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/IpContainer" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/IpContainer"]
 margin_right = 563.0
 margin_bottom = 40.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 custom_fonts/font = ExtResource( 3 )
 text = "IP: "
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "custom_colors", "custom_fonts" ]
 
-[node name="IpEdit" type="LineEdit" parent="CenterContainer/VBoxContainer/IpContainer" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="IpEdit" type="LineEdit" parent="CenterContainer/VBoxContainer/IpContainer"]
 margin_left = 567.0
 margin_right = 1130.0
-margin_bottom = 40.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 1
+margin_bottom = 50.0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
 max_length = 12
-focus_mode = 2
-context_menu_enabled = true
-placeholder_alpha = 0.6
-caret_blink = false
-caret_blink_speed = 0.65
-caret_position = 0
 
-[node name="PortContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer" index="3"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_top = 234.0
+[node name="PortContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
+margin_top = 254.0
 margin_right = 1130.0
-margin_bottom = 274.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-alignment = 0
+margin_bottom = 304.0
 
-[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/PortContainer" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/PortContainer"]
 margin_right = 563.0
 margin_bottom = 40.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 2
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
 size_flags_vertical = 2
 custom_fonts/font = ExtResource( 3 )
 text = "Port:"
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "custom_fonts" ]
 
-[node name="PortEdit" type="LineEdit" parent="CenterContainer/VBoxContainer/PortContainer" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="PortEdit" type="LineEdit" parent="CenterContainer/VBoxContainer/PortContainer"]
 margin_left = 567.0
 margin_right = 1130.0
-margin_bottom = 40.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 1
+margin_bottom = 50.0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
 max_length = 4
-focus_mode = 2
-context_menu_enabled = true
-placeholder_alpha = 0.6
-caret_blink = false
-caret_blink_speed = 0.65
-caret_position = 0
 
-[node name="Buttons" type="HBoxContainer" parent="CenterContainer/VBoxContainer" index="4"]
-
-editor/display_folded = true
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_top = 299.0
+[node name="Buttons" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
+margin_top = 329.0
 margin_right = 1130.0
-margin_bottom = 345.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
+margin_bottom = 375.0
 custom_constants/separation = 25
-alignment = 0
 
-[node name="JoinButton" type="Button" parent="CenterContainer/VBoxContainer/Buttons" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="JoinButton" type="Button" parent="CenterContainer/VBoxContainer/Buttons"]
 margin_right = 552.0
 margin_bottom = 46.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
 text = "Join"
-flat = false
-align = 1
 
-[node name="HostButton" type="Button" parent="CenterContainer/VBoxContainer/Buttons" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="HostButton" type="Button" parent="CenterContainer/VBoxContainer/Buttons"]
 margin_left = 577.0
 margin_right = 1130.0
 margin_bottom = 46.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
 text = "Host"
-flat = false
-align = 1
 
-[node name="DebugButtons" type="HBoxContainer" parent="CenterContainer/VBoxContainer" index="5"]
-
-editor/display_folded = true
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_top = 370.0
+[node name="DebugButtons" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
+margin_top = 400.0
 margin_right = 1130.0
-margin_bottom = 416.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-mouse_filter = 1
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
+margin_bottom = 446.0
 custom_constants/separation = 25
-alignment = 0
 
-[node name="ClientButton" type="Button" parent="CenterContainer/VBoxContainer/DebugButtons" index="0"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="ClientButton" type="Button" parent="CenterContainer/VBoxContainer/DebugButtons"]
 margin_right = 552.0
 margin_bottom = 46.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
 text = "Client"
-flat = false
-align = 1
 
-[node name="ServerButton" type="Button" parent="CenterContainer/VBoxContainer/DebugButtons" index="1"]
-
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
+[node name="ServerButton" type="Button" parent="CenterContainer/VBoxContainer/DebugButtons"]
 margin_left = 577.0
 margin_right = 1130.0
 margin_bottom = 46.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = false
-focus_mode = 2
-mouse_filter = 0
-mouse_default_cursor_shape = 0
 size_flags_horizontal = 3
-size_flags_vertical = 1
 custom_fonts/font = ExtResource( 3 )
-toggle_mode = false
-enabled_focus_mode = 2
-shortcut = null
-group = null
 text = "Server"
-flat = false
-align = 1
-
 [connection signal="text_changed" from="CenterContainer/VBoxContainer/NameContaier/NameEdit" to="." method="_on_NameEdit_text_changed"]
-
 [connection signal="text_changed" from="CenterContainer/VBoxContainer/IpContainer/IpEdit" to="." method="_on_IpEdit_text_changed"]
-
 [connection signal="text_changed" from="CenterContainer/VBoxContainer/PortContainer/PortEdit" to="." method="_on_PortEdit_text_changed"]
-
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Buttons/JoinButton" to="." method="_on_JoinButton_pressed"]
-
 [connection signal="pressed" from="CenterContainer/VBoxContainer/Buttons/HostButton" to="." method="_on_HostButton_pressed"]
-
 [connection signal="pressed" from="CenterContainer/VBoxContainer/DebugButtons/ClientButton" to="." method="_on_ClientButton_pressed"]
-
 [connection signal="pressed" from="CenterContainer/VBoxContainer/DebugButtons/ServerButton" to="." method="_on_ServerButton_pressed"]
-
-

@@ -1,0 +1,23 @@
+[2020.06.26 21:20:41]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:20:41]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:20:41]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:20:58]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:21:07]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:21:07]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:21:07]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:22:24]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:22:24]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:22:24]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:22:24]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:22:24]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:22:24]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:23:00]|INFO |[MyLogFile] []>>test info
+[2020.06.26 21:23:00]|WARN |[MyLogFile] []>>test warning
+[2020.06.26 21:23:00]|ERROR|[MyLogFile] []>>test error
+[2020.06.26 21:23:08]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:24:10]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:24:11]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:24:15]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:24:15]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:24:15]|INFO |[MyLogFile] []>>HOST Button pressed
+[2020.06.26 21:24:16]|INFO |[MyLogFile] []>>HOST Button pressed
